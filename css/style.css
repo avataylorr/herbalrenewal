@@ -168,4 +168,136 @@ body {
   .quote2 { 
     grid-area: 3 / 8 / 4 / 9; 
   }
+
+.container6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  width: 300px;
+	height: 300px;
+	margin: auto;
+  background: #FDF4EF
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "login_bar login_bar login_bar login_bar login_bar nlogin_bar login_bar login_bar";
+}
+  
+
+.login_bar {
+	width: 300px;
+	height: 50px;
+	background: #FDF4EF;
+	border-radius: 10px;
+	top: 50%;
+	position: relative;
+  z-index: 1;
+	overflow: hidden;
+}
+
+.login {
+	background: transparent;
+	position: absolute;
+	height: 100%;
+	width: 190px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	z-index: 10;
+	-webkit-transition: transform 0.2s ease-in-out 0s;
+	   -moz-transition: transform 0.2s ease-in-out 0s;
+	     -o-transition: transform 0.2s ease-in-out 0s;
+	        transition: transform 0.2s ease-in-out 0s;
+}
+
+.login_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.subscribe_button:hover{
+	background-color: #222A33;
+	cursor:pointer;
+}
+
+.subscribe_button {
+	background: #171D23;
+	position: absolute;
+	top: -50px;
+	left: 200px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 150px;
+	width: 100px;
+	text-align: center;
+	line-height: 150px;
+	vertical-align: middle;	
+	color: white;
+	-webkit-transition: transform 0.5s ease 0s;
+	   -moz-transition: transform 0.5s ease 0s;
+	     -o-transition: transform 0.5s ease 0s;
+	        transition: transform 0.5s ease 0s;
+}
+
+.subscribe_button_active{
+	-webkit-transform: translateY(50px);
+	   -moz-transform: translateY(50px);
+	    -ms-transform: translateY(50px);
+	     -o-transform: translateY(50px);
+	        transform: translateY(50px);
+}
+
+.subscribing{
+	background: #CDD4DC;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	position: absolute;
+	left:-300px;
+	display: inline-block;
+	-webkit-transition: transform 1s ease 0s ;
+	   -moz-transition: transform 1s ease 0s ;
+	     -o-transition: transform 1s ease 0s ;
+	        transition: transform 1s ease 0s ;
+}
+
+.subscribing_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.thanks{
+	background: transparent;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 10px;
+	position: absolute;
+	top:50px;
+	display: inline-block;
+	-webkit-transition: transform 0.5s ease 0s ;
+	   -moz-transition: transform 0.5s ease 0s ;
+	     -o-transition: transform 0.5s ease 0s ;
+	        transition: transform 0.5s ease 0s ;
+}
+
+.thanks_active {
+	-webkit-transform: translateY(-50px);
+	   -moz-transform: translateY(-50px);
+	    -ms-transform: translateY(-50px);
+	     -o-transform: translateY(-50px);
+	        transform: translateY(-50px);
+}
+
   
