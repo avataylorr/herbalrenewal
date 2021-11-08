@@ -1,108 +1,111 @@
 <html>
-    <head>
-        <title>Using External CSS</title>
-        <link href="css/style.css" type="text/css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
-    </head>
-    <body>
 
-        <div class="container">
-            <div class="hamburger">menu</div>
-            <div class="header">
-                <img src="img/header.png" height="80" >
-            </div>
-          </div>
+<head>
+    <title>Using External CSS</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+</head>
 
-        <div class="container1">
-            <div class="pic">
-                <img src="img/soapp.gif">
-            </div>
-            <div class="text"><b>natural<br>recipes.<br>simple<br>skincare.</b></div>
+<body>
+
+    <div class="container">
+        <div class="hamburger">menu</div>
+        <div class="header">
+            <img src="img/header.png" height="80">
         </div>
+    </div>
 
-        <div class="container2">
-            <div class="browndash1"><img src="img/browndash.gif"></div>
-            <div class="about"><b>providing herbal recipes<br>for all of your skincare needs.</b></div>
-            <div class="browndash2"><img src="img/browndash.gif"></div>
+    <div class="container1">
+        <div class="pic">
+            <img src="img/soapp.gif">
         </div>
+        <div class="text"><b>natural<br>recipes.<br>simple<br>skincare.</b></div>
+    </div>
 
-        <div class="container3">
-            <div class="butterpic">
-                <img src="img/butterr.jpg" height="785">
-            </div>
-            <div class="buttertext">
-                <img src="img/brownarrow2.gif">
-            </div>
-            <div class="btext"><br>body butter</div>
+    <div class="container2">
+        <div class="browndash1"><img src="img/browndash.gif"></div>
+        <div class="about"><b>providing herbal recipes<br>for all of your skincare needs.</b></div>
+        <div class="browndash2"><img src="img/browndash.gif"></div>
+    </div>
+
+    <div class="container3">
+        <div class="butterpic">
+            <img src="img/butterr.jpg" height="785">
         </div>
-
-        <div class="container4">
-            <div class="serum-text">
-                <img src="img/brownarrowright.gif">
-            </div>
-            <div class="serum-pic">
-                <img src="img/serumjpg.jpg" height="785">
-            </div>
-            <div class="stext">self-heal<br>skin serum</div>
+        <div class="buttertext">
+            <img src="img/brownarrow2.gif">
         </div>
+        <div class="btext"><br>body butter</div>
+    </div>
 
-        <div class="container5">
-            <div class="quotetext"><b>herbal renewal is my go-to blog when I’m looking for<br> 
+    <div class="container4">
+        <div class="serum-text">
+            <img src="img/brownarrowright.gif">
+        </div>
+        <div class="serum-pic">
+            <img src="img/serumjpg.jpg" height="785">
+        </div>
+        <div class="stext">self-heal<br>skin serum</div>
+    </div>
+
+    <div class="container5">
+        <div class="quotetext"><b>herbal renewal is my go-to blog when I’m looking for<br>
                 minimal ingredient, natural skincare recipes.</b><br><br>- emily, 20, nj</div>
-            <div class="browndashh">
-                <img src="img/browndash.gif">
-            </div>
-            <div class="browndashhh">
-                <img src="img/browndash.gif">
-            </div>
-            <div class="quote1">
-                <img src="img/quotetaildown.gif" height="60">
-            </div>
-            <div class="quote2">
-                <img src="img/quotetailup.gif" height="60">
-            </div>
+        <div class="browndashh">
+            <img src="img/browndash.gif">
         </div>
+        <div class="browndashhh">
+            <img src="img/browndash.gif">
+        </div>
+        <div class="quote1">
+            <img src="img/quotetaildown.gif" height="60">
+        </div>
+        <div class="quote2">
+            <img src="img/quotetailup.gif" height="60">
+        </div>
+    </div>
 
-        <div class="container6">
-            <p>join the community</p>
-            <div class="login_bar"> 
-                <!-- <span class="login">super-email@gmail.com</span> -->
-                <input class="login" placeholder="your email"type="text">
+    <div class="container6">
+        <div class="subcontainer">
+            <p><b>join the community</b></p>
+            <div class="login_bar">
+                <input class="login" placeholder="your email" type="text">
                 <span class="subscribe_button" onclick="subscribeOnClick()">subscribe</span>
                 <span class="subscribing"></span>
                 <span class="thanks"> Thank you. You have been subscribed</span>
             </div>
         </div>
-    
+    </div>
 
 
-        <script>
-            var subscribe_button = document.querySelector(".subscribe_button");
-            subscribe_button.addEventListener('click', function() {
-                var subscribing = document.querySelector(".subscribing");
-                var thanks = document.querySelector(".thanks");
-                var login = document.querySelector(".login");
-                subscribing.classList.add("subscribing_active");
-                subscribe_button.classList.add("subscribe_button_active");
-                setTimeout(function() {
-                    login.classList.add("login_active");
-                }, 1200);
-                setTimeout(function() {
-                    thanks.classList.add("thanks_active");
-                }, 1400);
-                setTimeout(function() {
-                    thanks.classList.remove("thanks_active");
-                    login.classList.remove("login_active");
-                    subscribing.classList.remove("subscribing_active");
-                    subscribe_button.classList.remove("subscribe_button_active");
-                }, 4000);
-            });
-    
-        </script>
-       
-        
 
-    </body>
+    <script>
+        var subscribe_button = document.querySelector(".subscribe_button");
+        subscribe_button.addEventListener('click', function () {
+            var subscribing = document.querySelector(".subscribing");
+            var thanks = document.querySelector(".thanks");
+            var login = document.querySelector(".login");
+            subscribing.classList.add("subscribing_active");
+            subscribe_button.classList.add("subscribe_button_active");
+            setTimeout(function () {
+                login.classList.add("login_active");
+            }, 1200);
+            setTimeout(function () {
+                thanks.classList.add("thanks_active");
+            }, 1400);
+            setTimeout(function () {
+                thanks.classList.remove("thanks_active");
+                login.classList.remove("login_active");
+                subscribing.classList.remove("subscribing_active");
+                subscribe_button.classList.remove("subscribe_button_active");
+            }, 4000);
+        });
+    </script>
+
+
+
+</body>
+
 </html>
