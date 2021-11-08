@@ -215,6 +215,17 @@ body {
 	   -moz-transition: transform 0.2s ease-in-out 0s;
 	     -o-transition: transform 0.2s ease-in-out 0s;
 	        transition: transform 0.2s ease-in-out 0s;
+  border: none;
+  font-family: 'Karla', sans-serif;
+}
+
+.login::placeholder{
+  color: #776243;
+}
+
+.container6 > p{
+  margin: auto;
+  padding-bottom: 80px;
 }
 
 .login_active {
@@ -231,7 +242,7 @@ body {
 }
 
 .subscribe_button {
-	background: #171D23;
+	background: #776243;
 	position: absolute;
 	top: -50px;
 	left: 200px;
@@ -258,7 +269,7 @@ body {
 }
 
 .subscribing{
-	background: #CDD4DC;
+	background: #F7A296;
 	height: 100%;
 	width: 300px;
 	z-index: 5;
