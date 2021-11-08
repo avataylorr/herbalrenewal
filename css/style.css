@@ -484,4 +484,34 @@ body {
 	        transform: translateY(-50px);
 }
 
-  
+.container7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  background-color: #F2E0D1;
+  grid-template-areas:
+    "about-1 about-1 about-1 about-1 about-1 about-1-pic about-1-pic about-1-pic";
+}
+
+  .about-1 { 
+    grid-area: about-1; 
+    background-color: #F2E0D1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 240px;
+    text-align: right;
+    font-size: 20px;
+  }
+
+  .about-1-pic { 
+    grid-area: about-1-pic; 
+    padding-left: 120px;
+    align-items: right;
+  }
+
+.container7 > .about-1 > p {
+  color: #F7A296;
+}
