@@ -170,15 +170,17 @@ body {
   }
 
 .container6 {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-auto-columns: 1fr;
-  width: 300px;
-	height: 300px;
 	margin: auto;
-  background: #FDF4EF
-  gap: 0px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
+  background: #D4B195;
   grid-auto-flow: row;
   grid-template-areas:
     "login_bar login_bar login_bar login_bar login_bar nlogin_bar login_bar login_bar";
@@ -194,6 +196,9 @@ body {
 	position: relative;
   z-index: 1;
 	overflow: hidden;
+  margin: auto;
+  
+
 }
 
 .login {
