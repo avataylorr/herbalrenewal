@@ -212,26 +212,12 @@ body {
   }
   .text { 
     grid-area: 2 / 1 / 3 / 4; 
-    font-size: 300%;
+    font-size: clamp(0.7rem, 2rem, 3rem);
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: clamp(0.01rem, 0.05rem, 0.1rem);
     color: #776243;
     position: relative;
   }
-
-  /* If the screen size is 600px wide or more, set the font-size of <div> to 300% */
-  @media screen and (min-width: 600px) {
-  .text {
-    font-size: 300%;
-  }
-}
-
- /* If the screen size is 599px wide or less, set the font-size of <div> to 150% */
- @media screen and (min-width: 599px) {
-  .text {
-    font-size: 150%;
-  }
-}
 
 
 
