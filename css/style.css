@@ -348,6 +348,18 @@ body {
     grid-area: 2 / 1 / 3 / 2; 
     padding-left: 80px;
   }
+
+  .quotetailup {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
+
+  .quotetaildown {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
   
   .quote2 { 
     grid-area: 3 / 8 / 4 / 9; 
@@ -557,7 +569,12 @@ body {
 
   .about-1-pic { 
     grid-area: about-1-pic; 
-    padding-left: 120px;
+  }
+
+  .about.soap {
+    max-width: 100%;
+    height: auto;
+    width: auto\8;
     align-items: right;
   }
 
