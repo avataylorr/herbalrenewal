@@ -17,8 +17,7 @@ body {
 }
 
   .hamburger { 
-    grid-area: hamburger;
-     
+    grid-area: hamburger; 
   }
 
   /*
@@ -178,8 +177,8 @@ body {
   .header { 
     grid-area: header; 
     background-color: #FDF4EF;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -211,9 +210,9 @@ body {
   }
   .text { 
     grid-area: 2 / 1 / 3 / 4; 
-    font-size: 50px;
-    padding-left: 40px;
-    padding-top: 60px;
+    font-size: 300%;
+    padding-left: 10%;
+    padding-top: 10%;
     color: #776243;
     position: relative;
   }
@@ -230,7 +229,7 @@ body {
   .about { 
     grid-area: 1 / 1 / 4 / 9; 
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 2%;
     text-align: center;
     font-size: 40px;
     color: #F7A296;
@@ -269,14 +268,14 @@ body {
 
   .buttertext { 
     grid-area: 1 / 5 / 5 / 9; 
-    padding-top: 620px;
+    padding-top: 115%;
   }
 
   .btext { 
     grid-area: 4 / 5 / 5 / 8; 
-    font-size: 40px;
-    padding-left: 30px;
-    padding-top: 50px;
+    font-size: 230%;
+    padding-left: 5%;
+    padding-top: 15%;
     color: #D9B799;
   }
 
@@ -291,21 +290,18 @@ body {
   
   .serum-text { 
     grid-area: 1 / 1 / 5 / 5; 
-    padding-left: 465px;
-    padding-top: 570px;
+    padding-left: 80%;
+    padding-top: 120%;
   }
   
   .serum-pic { grid-area: 1 / 5 / 5 / 9; }
-
-  .serum-pic > .spicc {
-  }
   
   .stext { grid-area: 4 / 2 / 5 / 5; 
-    font-size: 40px;
+    font-size: 230%;
     color: #D9B799;
     text-align: right;
-    padding-right: 40px;
-    padding-top: 50px;
+    padding-right: 7%;
+    padding-top: 27%;
   }
 
   .spicc {
@@ -328,7 +324,7 @@ body {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 40px;
+    font-size: 230%;
     color: #F7A296;
   }
   
@@ -346,7 +342,7 @@ body {
   
   .quote1 { 
     grid-area: 2 / 1 / 3 / 2; 
-    padding-left: 80px;
+    padding-left: 40%;
   }
 
   .quotetailup {
@@ -370,8 +366,8 @@ body {
   grid-template-rows: 1fr;
   grid-auto-columns: 1fr;
 	margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 8%;
+  padding-bottom: 8%;
   display: flex;
   justify-content:center;
   align-items:center;
@@ -529,19 +525,18 @@ body {
   background-color: #F2E0D1;
 }
 
-.about-1 { 
-  grid-area: 1 / 1 / 7 / 6; 
-  padding-left: 30px;
-}
+    .about-1 { 
+      grid-area: 1 / 1 / 7 / 6; 
+      padding-left: 10%;
+    }
 
-.about-pic-1 { 
-  grid-area: 1 / 6 / 7 / 9;
-}
+    .about-pic-1 { 
+      grid-area: 1 / 6 / 7 / 9;
+    }
 
-.hamburger-about { grid-area: 1 / 1 / 2 / 2; }
-
-
-
+    .hamburger-about { 
+      grid-area: 1 / 1 / 2 / 2; 
+    }
 
 
 
@@ -554,21 +549,22 @@ body {
   grid-auto-flow: row;
   background-color: #F2E0D1;
   grid-template-areas:
-    "about-1 about-1 about-1 about-1 about-1 about-1-pic about-1-pic about-1-pic";
+    "about-1 about-1 about-1 about-1 about-1 about-1 about-1-pic about-1-pic";
 }
 
   .about-1 { 
     grid-area: about-1; 
     background-color: #F2E0D1;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin-left: 240px;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    padding-left: 10%;
     text-align: right;
-    font-size: 20px;
+    font-size: 150%;
   }
 
   .about-1-pic { 
     grid-area: about-1-pic; 
+    padding-left: 30%;
   }
 
   .about.soap {
@@ -581,7 +577,7 @@ body {
 .container8 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 0.15fr;
+  grid-template-rows: 1fr 1fr 1fr 0.55fr;
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -594,9 +590,9 @@ body {
   
 .p-2{
   text-align: center;
-  font-size: 40px;
+  font-size: 200%;
   color: #776243;
-  margin-top: -120px;
+  margin-top: -8%;
 }
   .about-pic-2 { 
     grid-area: about-pic-2; 
@@ -607,21 +603,21 @@ body {
     grid-area: cream-icon; 
     background-color: #FDF4EF;
     background: #FDF4EF;
-    padding-left: 30px;
+    width: 100vw;
+    height: 15vh;
   }
 
   .cicon{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    padding-bottom: 10px;
   }
   
   .about-text-2 { 
     grid-area: about-text-2; 
     color: #FDF4EF;
-    font-size: 20px;
-    padding-left: 30px;
+    font-size: 150%;
+    padding-left: 20%;
+    width: 100vw;
   }
   
 .container9 {
@@ -641,12 +637,15 @@ body {
   
   .about-pic-3 { 
     grid-area: about-pic-3; 
+    padding-right: 100%;
   }
   
   .moisturizer-icon { 
     grid-area: moisturizer-icon; 
     color: #FDF4EF;
     background: #FDF4EF;
+    width: 100vw;
+    height: 15vh;
   }
 
   .micon {
@@ -659,15 +658,20 @@ body {
     grid-area: about-text-3; 
     color: #FDF4EF;
     text-align: right;
-    font-size: 20px;
-    padding-right: 30px;
+    font-size: 150%;
+    padding-right: 20%;
+    padding-top: 2%;
+  }
+
+  .bath-pic {
+    padding-right: 100%;
   }
 
   .p-3 {
     color: #776243;
-    font-size: 40px;
+    font-size: 200%;
     text-align: center;
-    margin-top: -120px;
+    margin-top: -8%;
   }
   
 .container10 {
