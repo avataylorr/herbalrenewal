@@ -275,14 +275,14 @@ body {
 
   .buttertext { 
     grid-area: 1 / 5 / 5 / 9; 
-    padding-top: 115%;
   }
 
   .btext { 
-    grid-area: 4 / 5 / 5 / 8; 
+    grid-area: 1 / 5 / 5 / 9; 
     font-size: 230%;
     padding-left: 5%;
-    padding-top: clamp(8%, 2.7vw, 25%);
+    padding-top: 90%;
+    /* padding-top: clamp(8%, 2.7vw, 25%); */
     /* padding-top: 25%; */
     color: #D9B799;
   }
@@ -300,6 +300,7 @@ body {
     grid-area: 1 / 1 / 5 / 5; 
     padding-left: 80%;
     padding-top: 120%;
+    padding-top: 90%;
   }
   
   .serum-pic { grid-area: 1 / 5 / 5 / 9; }
@@ -309,7 +310,6 @@ body {
     color: #D9B799;
     text-align: right;
     padding-right: 7%;
-    padding-top: 20%;
   }
 
   .spicc {
@@ -332,7 +332,7 @@ body {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 230%;
+    font-size: clamp(1.3rem, 3.0vw, 6.0rem);
     color: #F7A296;
   }
   
