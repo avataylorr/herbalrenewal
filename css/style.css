@@ -564,11 +564,13 @@ body {
   .about-1 { 
     grid-area: about-1; 
     background-color: #F2E0D1;
-    padding-top: 7%;
+    /* padding-top: 20%; */
+    padding-top: clamp(5rem, 1.50vw, 10rem);
     padding-bottom: 3%;
     padding-left: 10%;
     text-align: right;
-    font-size: 150%;
+    /* font-size: 150%; */
+    font-size: clamp(1.2rem, 1.8vw, 7rem);
   }
 
   .about-1-pic { 
@@ -599,10 +601,13 @@ body {
   
 .p-2{
   text-align: center;
-  font-size: 200%;
+  /* font-size: 200%; */
+  font-size: clamp(1.2rem, 2vw, 7rem);
   color: #776243;
-  margin-top: -7%;
-  margin-left: 7%;
+  /* margin-top: -7%; */
+  /* margin-top: clamp(0.5rem, 1vw, 0.5rem); */
+  /* margin-left: 7%; */
+  margin-left: clamp(0.5rem, 1vw, 0.5rem);
 }
   .about-pic-2 { 
     grid-area: about-pic-2; 
@@ -720,6 +725,9 @@ body {
   .about-text-4 { 
     grid-area: about-text-4; 
     text-align: left;
-    font-size: 150%;
-    padding-left: 23%;
+    /* font-size: 1.5rem; */
+    /* font-size: clamp(0.5rem, 3vw, 1.5rem); */
+    font-size: clamp(1.2rem, 1.8vw, 7rem);
+    /* padding-left: 23%; */
+    padding-left: clamp(20rem, 20vw, 50rem);
   }
