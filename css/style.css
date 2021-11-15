@@ -1104,8 +1104,8 @@ body {
   .textbb { 
     grid-area: 2 / 5 / 3 / 9; 
     font-size: clamp(1.5rem, 5.0vw, 8.8rem);
-    padding-left: ;
-    padding-top: ;
+    padding-left: 1200%;
+    padding-top: 170%;
   }
 
   .bbheader {
