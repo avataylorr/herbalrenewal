@@ -291,6 +291,10 @@ body {
     color: #D9B799;
   }
 
+  #link {
+    color: #D9B799;
+  }
+
 .container4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1062,6 +1066,52 @@ body {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "hamburger bbheader bbheader bbheader bbheader bbheader bbheader bbheader";
+    "hamburger header header header header header header header";
   background-color: #FDF4EF;
 }
+
+  /* .bbheader {
+    grid-area: header; 
+      background-color: #FDF4EF;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  .b-bheader {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  } */
+
+.container12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+  
+  .bbpicc { 
+    grid-area: 1 / 1 / 3 / 9; 
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
+  
+  .textbb { 
+    grid-area: 2 / 5 / 3 / 9; 
+    font-size: clamp(1.5rem, 5.0vw, 8.8rem);
+    padding-left: ;
+    padding-top: ;
+  }
+
+  .bbheader {
+    max-height: 100%;
+    width: 100vw;
+    /* height: auto;
+    width: auto\8; */
+  }
+  
