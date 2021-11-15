@@ -1138,21 +1138,68 @@ body {
       "bb-benefits-section bb-benefits-section bb-benefits-section bb-benefits-section bb-benefits-section bb-benefits-section bb-benefits-section bb-benefits-section";
   }
   
-  .bb-benefits-section { 
-    grid-area: bb-benefits-section; 
-    display: block;}
+    .bb-benefits-section { 
+      grid-area: bb-benefits-section; 
+      display: block;
+      padding-bottom: 3%;
+    }
+    
+    .bb-benefits-h1 {
+      color: #E3BC83;
+      font-size: clamp(1.5rem, 5.0vw, 8.8rem);
+      padding-left: 5%;
+      margin-top: 0%;
+    }
+    
+    .bb-benefits-p {
+      padding-left: 5%;
+      font-size: clamp(1.2rem, 3.0vw, 8.8rem);
+      color: #776243;
+    }
   
-  .bb-benefits-h1 {
-    color: #E3BC83;
-    font-size: clamp(1.5rem, 5.0vw, 8.8rem);
-    padding-left: 5%;
-    margin-top: 0%;
-  }
+    .container14 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "bb-pic-left bb-pic-left bb-pic-left bb-pic-left bb-ingredients bb-ingredients bb-ingredients bb-ingredients"
+        "bb-pic-left bb-pic-left bb-pic-left bb-pic-left bb-ingredients bb-ingredients bb-ingredients bb-ingredients"
+        "bb-pic-left bb-pic-left bb-pic-left bb-pic-left bb-ingredients bb-ingredients bb-ingredients bb-ingredients"
+      ;
+    }
+    
+    .bb-pic-left { 
+      grid-area: bb-pic-left; 
+    }
+    
+    .bb-ingredients { 
+      grid-area: bb-ingredients; 
+      background-color: #F2E0D1;
+    }
+
+    .bb-lpic {
+      max-width: 100%;
+      height: auto;
+      width: auto\9;
+    }
+    
+    .bb-ingredients-h1 {
+      color: #E3BC83;
+      font-size: clamp(1.5rem, 5.0vw, 8.8rem);
+      padding-left: 8%;
+      margin-top: 7%;
+    }
+    
+    .bb-ingredients-p {
+      padding-left: 8%;
+      font-size: clamp(1.2rem, 3.0vw, 8.8rem);
+      color: #776243;
+      line-height: 140%;
+    }
+
   
-  .bb-benefits-p {
-    padding-left: 5%;
-    font-size: clamp(1.2rem, 3.0vw, 8.8rem);
-    color: #776243;
-  }
   
   
