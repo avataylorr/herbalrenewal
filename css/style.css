@@ -1217,7 +1217,10 @@ body {
       "flower flower flower . . . . .";
   }
     
-    .directions-content { grid-area: directions-content; }
+    .directions-content { 
+      grid-area: directions-content; 
+      /* padding-top: 3%; */
+      padding-bottom: 5%;}
     
     .directions-label { grid-area: directions-label; }
     
@@ -1283,6 +1286,3 @@ body {
       margin-top: 10px;
       color: #776243;
     }
-    
-  
-  
