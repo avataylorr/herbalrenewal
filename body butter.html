@@ -9,6 +9,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
     </head>
 
     <body>
@@ -97,111 +99,10 @@
 
         <div class="container15">
             <div class="directions-label">asd</div>
-            <div class="directions-content">
-                <div class="slider">
-                    <div class="slidercontainer">
-                      <div class="sliderspot  spot1"> </div>
-                      <ul id="sliderul">
-                        <li class="slidercontent"> step one
-                          <span> begin by melting the shea butter, mango butter, coconut oil, 
-                                  and beeswax in a double boiler or in a pan on very low heat. 
-                          </span> 
-                        </li>
-                        <li class="slidercontent"> step six 
-                          <span> once the butter mixture has cooled, use a blender or mixer to 
-                                begin to mix it. slowly add the hydrosol mixture. (see 
-                                how the mixture has changed in appearance as it cooled?)
-                          </span> 
-                        </li>
-                        <li class="slidercontent"> step five 
-                          <span> while waiting for the butter mixture to cool, mix together the 
-                                hydrosol, aloe vera gel, essential oils, and borax powder.
-                          </span> 
-                        </li>
-                        <li class="slidercontent"> step four 
-                          <span> once the butters, oils, and wax are combined, pour it into the 
-                                container you are going to mix it in. if you are using a blender, 
-                                pour the mixture in the blender and set it aside until it is room 
-                                temperature. if you are using a handheld mixer, stand mixer, or 
-                                immersion blender, place it in the bowl you will use to whip it up.
-                          </span> 
-                        </li>
-                        
-                          <li class="slidercontent"> step three 
-                          <span> once it has all melted, turn off the heat and slowly add the 
-                                  herb-infused oil. when you add the oil, you might notice parts 
-                                  of the liquid become solid again. sometimes you can just 
-                                  give it a little stir and everything will melt again. if not, 
-                                  it may need a tiny bit more heat to be sure that it all melts together.
-                          </span> 
-                        </li>
-                        <li class="slidercontent"> step two 
-                          <span> when all the hydrosol mixture has been mixed in, 
-                                  the body butter can be poured into jars and labeled. 
-                          </span> 
-                        </li>
-                      
-                      </ul>
-                      <div class="sliderspot spot2"> </div>
-                    </div>
-                </div>
-            </div>
+            <div class="directions-content">asd</div>
             <div class="flower">asd</div>
         </div>
-    <script>
-        var current = 1;
-var max = $( "li" ).length +1;
 
-$(".slidercontent").hide();
-$(".slidercontent:nth-child(1)").fadeIn("slow");
-
-//function to change to next quote
-function changeUp() {
-  $(".slidercontent").hide();
-  current += 1;
-  if (current === max) {
-    current = 1;
-  }
-$(".slidercontent:nth-child(" + current + ")").fadeIn("slow");
-}
-
-function changeDown() {
-  $(".slidercontent").hide();
-  current -= 1;
-
-  if (current === 0) {
-    current = max - 1;
-  }
-
-  $(".slidercontent:nth-child(" + current + ")").fadeIn("slow");
-}
-
-startChange();
-
-$(".sliderspot2").click(function() { 
-  stopChange();
-  changeUp();
-  startChange();
-});
-
-$(".sliderspot").click(function() {
-  stopChange();
-  changeDown();
-  startChange();
-});
-
-//FUNCTIONS TO CONTROL TIMING CHANGES
-function startChange() {
-changeIt = setInterval(function(){ 
-changeUp();
-}, 10000);
-};
-
-function stopChange() {
-    clearInterval(changeIt);
-}
-    </script>
-    </body>
 
 
 </html>
