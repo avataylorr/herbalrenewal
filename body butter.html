@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>JS Bin</title>
     </head>
 
     <body>
@@ -99,10 +102,73 @@
 
         <div class="container15">
             <div class="directions-label">asd</div>
-            <div class="directions-content">asd</div>
+            <div class="directions-content">
+                <div class="slider">
+                    <div class="slidercontainer">
+                      <div class="sliderspot  spot1"> </div>
+                      <ul id="sliderul">
+                        <li class="slidercontent"> "The first quotation."
+                          <span> This first author. </span> </li>
+                        <li class="slidercontent"> "The second quotation." <span> The second author. </span> </li>
+                      </ul>
+                      <div class="sliderspot spot2"> </div>
+                    </div>
+                  </div>
+            </div>
             <div class="flower">asd</div>
         </div>
-
-
-
+    <script>
+        var current = 1;
+        var max = $( "li" ).length +1;
+        
+        $(".slidercontent").hide();
+        $(".slidercontent:nth-child(1)").fadeIn("slow");
+        
+        //function to change to next quote
+        function changeUp() {
+          $(".slidercontent").hide();
+          current += 1;
+          if (current === max) {
+            current = 1;
+          }
+        $(".slidercontent:nth-child(" + current + ")").fadeIn("slow");
+        }
+        
+        function changeDown() {
+          $(".slidercontent").hide();
+          current -= 1;
+        
+          if (current === 0) {
+            current = max - 1;
+          }
+        
+          $(".slidercontent:nth-child(" + current + ")").fadeIn("slow");
+        }
+        
+        startChange();
+        
+        $(".sliderspot2").click(function() { 
+          stopChange();
+          changeUp();
+          startChange();
+        });
+        
+        $(".sliderspot").click(function() {
+          stopChange();
+          changeDown();
+          startChange();
+        });
+        
+        //FUNCTIONS TO CONTROL TIMING CHANGES
+        function startChange() {
+        changeIt = setInterval(function(){ 
+        changeUp();
+        }, 10000);
+        };
+        
+        function stopChange() {
+            clearInterval(changeIt);
+        }
+    </script>
+    </body>    
 </html>

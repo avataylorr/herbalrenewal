@@ -1,7 +1,3 @@
-* {
-
-}
-
 body {
   font-family: 'Karla', sans-serif;
   background-color: #FDF4EF;
@@ -1216,7 +1212,7 @@ body {
       "flower flower flower . . . . ."
       "flower flower flower . . . . .";
   }
-    
+
     .directions-content { 
       grid-area: directions-content; 
       /* padding-top: 3%; */
@@ -1225,3 +1221,67 @@ body {
     .directions-label { grid-area: directions-label; }
     
     .flower { grid-area: flower; }
+
+    .slider {
+      width: 100%;
+      background-color: #FDF4EF;
+      margin: 10px auto;
+      height: 200px;
+    }
+    
+    .slidercontainer {
+      width: 85%;
+      height: 200px;
+      margin: 0px auto;
+    }
+    
+    .sliderspot {
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      background-color: #D9B799;
+      display: inline;
+      cursor: pointer;
+      cursor: hand;
+    }
+    
+    .sliderspot:hover {
+      background-color: #776243;
+    }
+    
+    .spot1 {
+      margin: 85px 30px;
+      float: left;
+    }
+    
+    .spot2 {
+      margin: 85px 30px;
+      float: right;
+    }
+    
+    #sliderul {
+      list-style-type: none;
+      margin-left: 4%;
+      width: 75%;
+      text-align: center;
+      height: 150px;
+      padding: 10px;
+      line-height: 30px;
+      display: inline-block;
+    }
+    
+    .slidercontent {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #776243;
+    }
+    
+    .slidercontent span {
+      font-size: 18px;
+      display: block;
+      margin-top: 10px;
+      color: #776243;
+    }
+  
+    
+
