@@ -1288,5 +1288,6 @@ body {
       font-size: clamp(1.5rem, 4.0vw, 8.8rem);
       text-align: center;
       color: #E3BC83;
+      padding-top: 1%;
     }
 
