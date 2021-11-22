@@ -1210,13 +1210,13 @@ body {
       "directions-content directions-content directions-content directions-content directions-content directions-content directions-content directions-content"
       "directions-content directions-content directions-content directions-content directions-content directions-content directions-content directions-content"
       "flower flower flower . . . . ."
-      "flower flower flower . . . . .";
+      /* "flower flower flower . . . . ."; */
   }
 
     .directions-content { 
       grid-area: directions-content; 
       /* padding-top: 3%; */
-      /* padding-bottom: 5%;} */
+      padding-bottom: 5%;}
     
     .directions-label { grid-area: directions-label; }
     
