@@ -1507,10 +1507,10 @@ body {
       }
     
       
-      #h1-directions-bb {
+      #h1-directions-ss{
         font-size: clamp(1.5rem, 4.0vw, 8.8rem);
         text-align: center;
-        color: #E3BC83;
+        color: #F7A296;
         padding-top: 1%;
       }
   
