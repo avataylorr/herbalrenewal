@@ -1292,7 +1292,8 @@ body {
     }
 
     .flower-logo {
-      max-width: 20vw;
+      max-width: 10vw;
+      margin-top: -10%;
       height: auto;
       width: auto\9;
       align-items: center;
