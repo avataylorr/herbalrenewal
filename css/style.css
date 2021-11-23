@@ -1732,6 +1732,7 @@ body {
         color: #F7A296;
         text-align: left;
         padding-left: 10%;
+        grid-area: about-text-four
 
       }
       
@@ -1740,5 +1741,6 @@ body {
         color: #776243;
         text-align: left;
         padding-left: 10%;
+        grid-area: about-text-four
       }
       
