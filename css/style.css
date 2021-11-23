@@ -1625,3 +1625,120 @@ body {
         padding-top: 4%;
       }
     
+.container32 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "simple-skincare-stuff simple-skincare-stuff simple-skincare-stuff simple-skincare-stuff simple-skincare-stuff simple-skincare-stuff about-pic-threee about-pic-threee"
+    "about-text-threee about-text-threee about-text-threee about-text-threee about-text-threee about-text-threee about-pic-threee about-pic-threee"
+    "about-text-threee about-text-threee about-text-threee about-text-threee about-text-threee about-text-threee about-pic-threee about-pic-threee";
+}
+      
+      .about-pic-threee { grid-area: about-pic-threee; }
+      
+      .simple-skincare-stuff { 
+        grid-area: simple-skincare-stuff; 
+        background-color: #FDF4EF;
+        text-align: center;
+        font-size: clamp(1.0rem, 3.0vw, 8.8rem);
+
+      }
+      
+      .about-text-threee { 
+        grid-area: about-text-threee; 
+        background-color: #F7A296;
+      }
+      
+      .bbomb-about {
+        max-width: 100%;
+        height: 100%;
+        width: auto\9;
+      }
+
+      .h1-about-third {
+        font-size: clamp(1.5rem, 5.0vw, 8.8rem);
+        color: #FDF4EF;
+        text-align: right;
+        padding-right: 10%;
+
+      }
+      
+      .p-about-third {
+        font-size: clamp(1.0rem, 2.8vw, 8.8rem);
+        color: #FDF4EF;
+        text-align: right;
+        padding-right: 10%;
+      }
+
+      .moisturizer {
+        max-width: 100%;
+        height: 47%;
+        width: auto\9;
+        padding-top: 4%;
+        /* padding-left: 12%; */
+      }
+
+.container33 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "about-picture-four about-picture-four herbal-renewal herbal-renewal herbal-renewal herbal-renewal herbal-renewal herbal-renewal"
+    "about-picture-four about-picture-four about-text-four about-text-four about-text-four about-text-four about-text-four about-text-four"
+    "about-picture-four about-picture-four about-text-four about-text-four about-text-four about-text-four about-text-four about-text-four";
+}
+      
+      .about-picture-four { 
+        grid-area: about-picture-four; 
+      }
+      
+      .herbal-renewal { 
+        grid-area: herbal-renewal; 
+        background-color: #FDF4EF;
+        /* text-align: center;
+        font-size: clamp(1.0rem, 3.0vw, 8.8rem); */
+        padding-bottom: 2%;
+        text-align: center;
+        font-size: clamp(1.0rem, 3.0vw, 8.8rem);
+      }
+      
+      .about-text-four { 
+        grid-area: about-text-four; 
+        background-color: #F1E0D1;
+      }
+
+      .arm-about {
+        max-width: 100%;
+        height: 100%;
+        width: auto\9;
+      }
+
+      .herb-renewal {
+        max-width: 100%;
+        height: 47%;
+        width: auto\9;
+        padding-top: 4%;
+      }
+
+      .h1-about-four {
+        font-size: clamp(1.5rem, 5.0vw, 8.8rem);
+        color: #F7A296;
+        text-align: left;
+        padding-left: 10%;
+
+      }
+      
+      .p-about-four {
+        font-size: clamp(1.0rem, 2.8vw, 8.8rem);
+        color: #776243;
+        text-align: left;
+        padding-left: 10%;
+      }
+      
