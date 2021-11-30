@@ -1744,3 +1744,8 @@ body {
         grid-area: about-text-four
       }
       
+@media only screen and (max-width: 500px) {
+  .directions-content , .flower-logo , .directions-label {
+   display: none;
+  }
+}
